@@ -1,5 +1,5 @@
     <?php
-    session_strat();
+    session_start();
     require 'Fadil_function.php';
 
     //cek ada cookie?

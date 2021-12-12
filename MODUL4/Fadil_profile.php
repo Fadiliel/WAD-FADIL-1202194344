@@ -10,7 +10,7 @@
   }else{
     $id=$_SESSION["id"];
     $result=mysqli_query($conn, "SELECT * FROM users WHERE id= '$id'");
-    $row = mysqli_fetch_assoc($resort);
+    $row = mysqli_fetch_assoc($result);
 
 
   }
